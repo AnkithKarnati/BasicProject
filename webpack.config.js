@@ -22,6 +22,7 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin()
   ],
+  //we can give any port number also
   devServer: {
     contentBase: './public',
     hot: true
